@@ -22,7 +22,7 @@ I have contributed to these open-source projects, among others:
 
 - [rdmo](https://github.com/rdmorganiser/rdmo/commits?author=afuetterer) — [![PyPI](https://img.shields.io/pypi/v/rdmo)](https://pypi.org/project/rdmo) — ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo) — [![PyPI - Downloads](https://img.shields.io/pypi/dm/rdmo)](https://pypistats.org/packages/rdmo)
 - [python-semantic-release](https://github.com/python-semantic-release/python-semantic-release/commits?author=afuetterer) — [![PyPI](https://img.shields.io/pypi/v/python-semantic-release)](https://pypi.org/project/python-semantic-release) — ![GitHub last commit](https://img.shields.io/github/last-commit/python-semantic-release/python-semantic-release) — [![PyPI - Downloads](https://img.shields.io/pypi/dm/python-semantic-release)](https://pypistats.org/packages/python-semantic-release)
-- [fuji](https://github.com/pangaea-data-publisher/fuji/commits?author=afuetterer)
-- [ddionrails](https://github.com/ddionrails/ddionrails/commits?author=afuetterer)
+- [fuji](https://github.com/pangaea-data-publisher/fuji/commits?author=afuetterer) — ![GitHub last commit](https://img.shields.io/github/last-commit/pangaea-data-publisher/fuji)
+- [ddionrails](https://github.com/ddionrails/ddionrails/commits?author=afuetterer) — ![GitHub last commit](https://img.shields.io/github/last-commit/ddionrails/ddionrails)
 
 Follow the links to see the commits I authored for these projects.
