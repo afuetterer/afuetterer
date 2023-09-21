@@ -6,11 +6,11 @@ My name is Heinz-Alexander Fuetterer and I am a research data management officer
 
 ### :wrench: Skills
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC.svg?style=for-the-badge&logo=Pytest&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+[![Python][python-badge]][python]
+[![Pytest][pytest-badge]][pytest]
+[![Pandas][pandas-badge]][pandas]
+[![Django][django-badge]][django]
+[![Flask][flask-badge]][flask]
 
 ### :chart_with_upwards_trend: GitHub Stats
 
@@ -74,3 +74,16 @@ for repo in repos:
 <!-- [[[end]]] -->
 
 Follow the links to see the commits I authored for these projects.
+
+<!-- Markdown links -->
+
+[python]: https://www.python.org
+[python-badge]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=white
+[pytest]: https://docs.pytest.org
+[pytest-badge]: https://img.shields.io/badge/Pytest-0A9EDC.svg?style=for-the-badge&logo=Pytest&logoColor=white
+[pandas]: https://pandas.pydata.org
+[pandas-badge]: https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white
+[django]: https://www.djangoproject.com
+[django-badge]: https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white
+[flask]: https://flask.palletsprojects.com
+[flask-badge]: https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white
