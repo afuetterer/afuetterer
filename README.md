@@ -25,6 +25,7 @@ I have contributed to these open-source projects, among others:
 | Name  | Version | Last Commit | # Stars | # Downloads |
 | ----  | ------- | ----------- | ------- | ----------- |
 | [python-semantic-release](https://github.com/python-semantic-release/python-semantic-release/commits?author=afuetterer) | ![PyPI version](https://img.shields.io/pypi/v/python-semantic-release) | ![GitHub last commit](https://img.shields.io/github/last-commit/python-semantic-release/python-semantic-release) | ![GitHub stars](https://img.shields.io/github/stars/python-semantic-release/python-semantic-release) | ![Downloads](https://img.shields.io/pypi/dm/python-semantic-release)
+| [cpython](https://github.com/python/cpython/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/python/cpython) | ![GitHub stars](https://img.shields.io/github/stars/python/cpython) |
 | [drf-spectacular](https://github.com/tfranzel/drf-spectacular/commits?author=afuetterer) | ![PyPI version](https://img.shields.io/pypi/v/drf-spectacular) | ![GitHub last commit](https://img.shields.io/github/last-commit/tfranzel/drf-spectacular) | ![GitHub stars](https://img.shields.io/github/stars/tfranzel/drf-spectacular) | ![Downloads](https://img.shields.io/pypi/dm/drf-spectacular)
 | [django-allauth](https://github.com/pennersr/django-allauth/commits?author=afuetterer) | ![PyPI version](https://img.shields.io/pypi/v/django-allauth) | ![GitHub last commit](https://img.shields.io/github/last-commit/pennersr/django-allauth) | ![GitHub stars](https://img.shields.io/github/stars/pennersr/django-allauth) | ![Downloads](https://img.shields.io/pypi/dm/django-allauth)
 | [rdmo](https://github.com/rdmorganiser/rdmo/commits?author=afuetterer) | ![PyPI version](https://img.shields.io/pypi/v/rdmo) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo) | ![Downloads](https://img.shields.io/pypi/dm/rdmo)
@@ -37,6 +38,7 @@ I have contributed to these open-source projects, among others:
 
 repos = [
     "python-semantic-release/python-semantic-release",
+    "python/cpython",
     "tfranzel/drf-spectacular",
     "pennersr/django-allauth",
     "rdmorganiser/rdmo",
@@ -47,6 +49,7 @@ repos = [
 ]
 not_on_pypi = (
     "pangaea-data-publisher/fuji",
+    "python/cpython",
     "ddionrails/ddionrails",
     "rdmorganiser/rdmo-catalog",
     "rdmorganiser/rdmo-docs-en",
