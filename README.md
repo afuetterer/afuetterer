@@ -20,17 +20,6 @@ My name is Heinz-Alexander Fuetterer and I am a research data management officer
 
 I have contributed to these open-source projects, among others:
 
-| Name  | Version | Last Commit | # Stars | # Downloads |
-| ----  | ------- | ----------- | ------- | ----------- |
-| [python-semantic-release](https://github.com/python-semantic-release/python-semantic-release/commits?author=afuetterer) | ![PyPI version](https://img.shields.io/pypi/v/python-semantic-release) | ![GitHub last commit](https://img.shields.io/github/last-commit/python-semantic-release/python-semantic-release) | ![GitHub stars](https://img.shields.io/github/stars/python-semantic-release/python-semantic-release) | ![Downloads](https://img.shields.io/pypi/dm/python-semantic-release)
-| [cpython](https://github.com/python/cpython/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/python/cpython) | ![GitHub stars](https://img.shields.io/github/stars/python/cpython) |
-| [drf-spectacular](https://github.com/tfranzel/drf-spectacular/commits?author=afuetterer) | ![PyPI version](https://img.shields.io/pypi/v/drf-spectacular) | ![GitHub last commit](https://img.shields.io/github/last-commit/tfranzel/drf-spectacular) | ![GitHub stars](https://img.shields.io/github/stars/tfranzel/drf-spectacular) | ![Downloads](https://img.shields.io/pypi/dm/drf-spectacular)
-| [django-allauth](https://github.com/pennersr/django-allauth/commits?author=afuetterer) | ![PyPI version](https://img.shields.io/pypi/v/django-allauth) | ![GitHub last commit](https://img.shields.io/github/last-commit/pennersr/django-allauth) | ![GitHub stars](https://img.shields.io/github/stars/pennersr/django-allauth) | ![Downloads](https://img.shields.io/pypi/dm/django-allauth)
-| [rdmo](https://github.com/rdmorganiser/rdmo/commits?author=afuetterer) | ![PyPI version](https://img.shields.io/pypi/v/rdmo) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo) | ![Downloads](https://img.shields.io/pypi/dm/rdmo)
-| [rdmo-catalog](https://github.com/rdmorganiser/rdmo-catalog/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo-catalog) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo-catalog) |
-| [rdmo-docs-en](https://github.com/rdmorganiser/rdmo-docs-en/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo-docs-en) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo-docs-en) |
-| [fuji](https://github.com/pangaea-data-publisher/fuji/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/pangaea-data-publisher/fuji) | ![GitHub stars](https://img.shields.io/github/stars/pangaea-data-publisher/fuji) |
-| [ddionrails](https://github.com/ddionrails/ddionrails/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/ddionrails/ddionrails) | ![GitHub stars](https://img.shields.io/github/stars/ddionrails/ddionrails) |
 <!-- adapted from https://github.com/cjolowicz/cjolowicz/blob/main/README.md -->
 <!-- [[[cog
 
@@ -39,6 +28,7 @@ repos = [
     "python/cpython",
     "tfranzel/drf-spectacular",
     "pennersr/django-allauth",
+    "schemathesis/schemathesis",
     "rdmorganiser/rdmo",
     "rdmorganiser/rdmo-catalog",
     "rdmorganiser/rdmo-docs-en",
@@ -52,6 +42,9 @@ not_on_pypi = (
     "rdmorganiser/rdmo-catalog",
     "rdmorganiser/rdmo-docs-en",
 )
+
+header = "| Name  | Version | Last Commit | # Stars | # Downloads |\n| ----  | ------- | ----------- | ------- | ----------- |"
+cog.outl(header)
 
 for repo in repos:
     org, package = repo.split("/")
@@ -68,7 +61,18 @@ for repo in repos:
     cog.outl(entry)
 
 ]]] -->
-
+| Name  | Version | Last Commit | # Stars | # Downloads |
+| ----  | ------- | ----------- | ------- | ----------- |
+| [python-semantic-release](https://github.com/python-semantic-release/python-semantic-release/commits?author=afuetterer) | ![PyPI version](https://img.shields.io/pypi/v/python-semantic-release) | ![GitHub last commit](https://img.shields.io/github/last-commit/python-semantic-release/python-semantic-release) | ![GitHub stars](https://img.shields.io/github/stars/python-semantic-release/python-semantic-release) | ![Downloads](https://img.shields.io/pypi/dm/python-semantic-release)
+| [cpython](https://github.com/python/cpython/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/python/cpython) | ![GitHub stars](https://img.shields.io/github/stars/python/cpython) |
+| [drf-spectacular](https://github.com/tfranzel/drf-spectacular/commits?author=afuetterer) | ![PyPI version](https://img.shields.io/pypi/v/drf-spectacular) | ![GitHub last commit](https://img.shields.io/github/last-commit/tfranzel/drf-spectacular) | ![GitHub stars](https://img.shields.io/github/stars/tfranzel/drf-spectacular) | ![Downloads](https://img.shields.io/pypi/dm/drf-spectacular)
+| [django-allauth](https://github.com/pennersr/django-allauth/commits?author=afuetterer) | ![PyPI version](https://img.shields.io/pypi/v/django-allauth) | ![GitHub last commit](https://img.shields.io/github/last-commit/pennersr/django-allauth) | ![GitHub stars](https://img.shields.io/github/stars/pennersr/django-allauth) | ![Downloads](https://img.shields.io/pypi/dm/django-allauth)
+| [schemathesis](https://github.com/schemathesis/schemathesis/commits?author=afuetterer) | ![PyPI version](https://img.shields.io/pypi/v/schemathesis) | ![GitHub last commit](https://img.shields.io/github/last-commit/schemathesis/schemathesis) | ![GitHub stars](https://img.shields.io/github/stars/schemathesis/schemathesis) | ![Downloads](https://img.shields.io/pypi/dm/schemathesis)
+| [rdmo](https://github.com/rdmorganiser/rdmo/commits?author=afuetterer) | ![PyPI version](https://img.shields.io/pypi/v/rdmo) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo) | ![Downloads](https://img.shields.io/pypi/dm/rdmo)
+| [rdmo-catalog](https://github.com/rdmorganiser/rdmo-catalog/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo-catalog) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo-catalog) |
+| [rdmo-docs-en](https://github.com/rdmorganiser/rdmo-docs-en/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo-docs-en) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo-docs-en) |
+| [fuji](https://github.com/pangaea-data-publisher/fuji/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/pangaea-data-publisher/fuji) | ![GitHub stars](https://img.shields.io/github/stars/pangaea-data-publisher/fuji) |
+| [ddionrails](https://github.com/ddionrails/ddionrails/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/ddionrails/ddionrails) | ![GitHub stars](https://img.shields.io/github/stars/ddionrails/ddionrails) |
 <!-- [[[end]]] -->
 
 Follow the links to see the commits I authored for these projects.
