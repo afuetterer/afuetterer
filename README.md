@@ -49,30 +49,37 @@ cog.outl(header)
 for repo in repos:
     org, package = repo.split("/")
     github_url = f"https://github.com/{org}/{package}/commits?author=afuetterer"
-    version_url = f"https://img.shields.io/pypi/v/{package}"
+    pypi_url = f"https://pypi.org/project/{package}/"
+    pypi_version_url = f"https://img.shields.io/pypi/v/{package}"
     last_commit_url = f"https://img.shields.io/github/last-commit/{repo}"
     stars_url = f"https://img.shields.io/github/stars/{repo}"
     downloads_url = f"https://img.shields.io/pypi/dm/{package}"
 
+    github = f"[{package}]({github_url})"
+    pypi =f"[![PyPI version]({pypi_version_url})]({pypi_url})"
+    last_commit = f"![GitHub last commit]({last_commit_url})"
+    stars = f"![GitHub stars]({stars_url})"
+    downloads = f"![Downloads]({downloads_url})"
+
     if repo in not_on_pypi:
-        entry = f"| [{package}]({github_url}) | | ![GitHub last commit]({last_commit_url}) | ![GitHub stars]({stars_url}) |"
+        entry = f"| {github} | | {last_commit} | {stars} | |"
     else:
-        entry = f"| [{package}]({github_url}) | ![PyPI version]({version_url}) | ![GitHub last commit]({last_commit_url}) | ![GitHub stars]({stars_url}) | ![Downloads]({downloads_url})"
+        entry = f"| {github} | {pypi} | {last_commit} | {stars} | {downloads} |"
     cog.outl(entry)
 
 ]]] -->
 | Name  | Version | Last Commit | # Stars | # Downloads |
 | ----  | ------- | ----------- | ------- | ----------- |
-| [python-semantic-release](https://github.com/python-semantic-release/python-semantic-release/commits?author=afuetterer) | ![PyPI version](https://img.shields.io/pypi/v/python-semantic-release) | ![GitHub last commit](https://img.shields.io/github/last-commit/python-semantic-release/python-semantic-release) | ![GitHub stars](https://img.shields.io/github/stars/python-semantic-release/python-semantic-release) | ![Downloads](https://img.shields.io/pypi/dm/python-semantic-release)
-| [cpython](https://github.com/python/cpython/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/python/cpython) | ![GitHub stars](https://img.shields.io/github/stars/python/cpython) |
-| [drf-spectacular](https://github.com/tfranzel/drf-spectacular/commits?author=afuetterer) | ![PyPI version](https://img.shields.io/pypi/v/drf-spectacular) | ![GitHub last commit](https://img.shields.io/github/last-commit/tfranzel/drf-spectacular) | ![GitHub stars](https://img.shields.io/github/stars/tfranzel/drf-spectacular) | ![Downloads](https://img.shields.io/pypi/dm/drf-spectacular)
-| [django-allauth](https://github.com/pennersr/django-allauth/commits?author=afuetterer) | ![PyPI version](https://img.shields.io/pypi/v/django-allauth) | ![GitHub last commit](https://img.shields.io/github/last-commit/pennersr/django-allauth) | ![GitHub stars](https://img.shields.io/github/stars/pennersr/django-allauth) | ![Downloads](https://img.shields.io/pypi/dm/django-allauth)
-| [schemathesis](https://github.com/schemathesis/schemathesis/commits?author=afuetterer) | ![PyPI version](https://img.shields.io/pypi/v/schemathesis) | ![GitHub last commit](https://img.shields.io/github/last-commit/schemathesis/schemathesis) | ![GitHub stars](https://img.shields.io/github/stars/schemathesis/schemathesis) | ![Downloads](https://img.shields.io/pypi/dm/schemathesis)
-| [rdmo](https://github.com/rdmorganiser/rdmo/commits?author=afuetterer) | ![PyPI version](https://img.shields.io/pypi/v/rdmo) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo) | ![Downloads](https://img.shields.io/pypi/dm/rdmo)
-| [rdmo-catalog](https://github.com/rdmorganiser/rdmo-catalog/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo-catalog) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo-catalog) |
-| [rdmo-docs-en](https://github.com/rdmorganiser/rdmo-docs-en/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo-docs-en) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo-docs-en) |
-| [fuji](https://github.com/pangaea-data-publisher/fuji/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/pangaea-data-publisher/fuji) | ![GitHub stars](https://img.shields.io/github/stars/pangaea-data-publisher/fuji) |
-| [ddionrails](https://github.com/ddionrails/ddionrails/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/ddionrails/ddionrails) | ![GitHub stars](https://img.shields.io/github/stars/ddionrails/ddionrails) |
+| [python-semantic-release](https://github.com/python-semantic-release/python-semantic-release/commits?author=afuetterer) | [![PyPI version](https://img.shields.io/pypi/v/python-semantic-release)](https://pypi.org/project/python-semantic-release/) | ![GitHub last commit](https://img.shields.io/github/last-commit/python-semantic-release/python-semantic-release) | ![GitHub stars](https://img.shields.io/github/stars/python-semantic-release/python-semantic-release) | ![Downloads](https://img.shields.io/pypi/dm/python-semantic-release) |
+| [cpython](https://github.com/python/cpython/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/python/cpython) | ![GitHub stars](https://img.shields.io/github/stars/python/cpython) | |
+| [drf-spectacular](https://github.com/tfranzel/drf-spectacular/commits?author=afuetterer) | [![PyPI version](https://img.shields.io/pypi/v/drf-spectacular)](https://pypi.org/project/drf-spectacular/) | ![GitHub last commit](https://img.shields.io/github/last-commit/tfranzel/drf-spectacular) | ![GitHub stars](https://img.shields.io/github/stars/tfranzel/drf-spectacular) | ![Downloads](https://img.shields.io/pypi/dm/drf-spectacular) |
+| [django-allauth](https://github.com/pennersr/django-allauth/commits?author=afuetterer) | [![PyPI version](https://img.shields.io/pypi/v/django-allauth)](https://pypi.org/project/django-allauth/) | ![GitHub last commit](https://img.shields.io/github/last-commit/pennersr/django-allauth) | ![GitHub stars](https://img.shields.io/github/stars/pennersr/django-allauth) | ![Downloads](https://img.shields.io/pypi/dm/django-allauth) |
+| [schemathesis](https://github.com/schemathesis/schemathesis/commits?author=afuetterer) | [![PyPI version](https://img.shields.io/pypi/v/schemathesis)](https://pypi.org/project/schemathesis/) | ![GitHub last commit](https://img.shields.io/github/last-commit/schemathesis/schemathesis) | ![GitHub stars](https://img.shields.io/github/stars/schemathesis/schemathesis) | ![Downloads](https://img.shields.io/pypi/dm/schemathesis) |
+| [rdmo](https://github.com/rdmorganiser/rdmo/commits?author=afuetterer) | [![PyPI version](https://img.shields.io/pypi/v/rdmo)](https://pypi.org/project/rdmo/) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo) | ![Downloads](https://img.shields.io/pypi/dm/rdmo) |
+| [rdmo-catalog](https://github.com/rdmorganiser/rdmo-catalog/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo-catalog) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo-catalog) | |
+| [rdmo-docs-en](https://github.com/rdmorganiser/rdmo-docs-en/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo-docs-en) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo-docs-en) | |
+| [fuji](https://github.com/pangaea-data-publisher/fuji/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/pangaea-data-publisher/fuji) | ![GitHub stars](https://img.shields.io/github/stars/pangaea-data-publisher/fuji) | |
+| [ddionrails](https://github.com/ddionrails/ddionrails/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/ddionrails/ddionrails) | ![GitHub stars](https://img.shields.io/github/stars/ddionrails/ddionrails) | |
 <!-- [[[end]]] -->
 
 Follow the links to see the commits I authored for these projects.
