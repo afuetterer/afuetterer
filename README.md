@@ -30,6 +30,7 @@ repos = [
     "pennersr/django-allauth",
     "schemathesis/schemathesis",
     "astropy/astropy",
+    "huggingface/transformers",
     "rdmorganiser/rdmo",
     "rdmorganiser/rdmo-catalog",
     "rdmorganiser/rdmo-docs-en",
@@ -77,6 +78,7 @@ for repo in repos:
 | [django-allauth](https://github.com/pennersr/django-allauth/commits?author=afuetterer) | [![PyPI version](https://img.shields.io/pypi/v/django-allauth)](https://pypi.org/project/django-allauth/) | ![GitHub last commit](https://img.shields.io/github/last-commit/pennersr/django-allauth) | ![GitHub stars](https://img.shields.io/github/stars/pennersr/django-allauth) | ![Downloads](https://img.shields.io/pypi/dm/django-allauth) |
 | [schemathesis](https://github.com/schemathesis/schemathesis/commits?author=afuetterer) | [![PyPI version](https://img.shields.io/pypi/v/schemathesis)](https://pypi.org/project/schemathesis/) | ![GitHub last commit](https://img.shields.io/github/last-commit/schemathesis/schemathesis) | ![GitHub stars](https://img.shields.io/github/stars/schemathesis/schemathesis) | ![Downloads](https://img.shields.io/pypi/dm/schemathesis) |
 | [astropy](https://github.com/astropy/astropy/commits?author=afuetterer) | [![PyPI version](https://img.shields.io/pypi/v/astropy)](https://pypi.org/project/astropy/) | ![GitHub last commit](https://img.shields.io/github/last-commit/astropy/astropy) | ![GitHub stars](https://img.shields.io/github/stars/astropy/astropy) | ![Downloads](https://img.shields.io/pypi/dm/astropy) |
+| [transformers](https://github.com/huggingface/transformers/commits?author=afuetterer) | [![PyPI version](https://img.shields.io/pypi/v/transformers)](https://pypi.org/project/transformers/) | ![GitHub last commit](https://img.shields.io/github/last-commit/huggingface/transformers) | ![GitHub stars](https://img.shields.io/github/stars/huggingface/transformers) | ![Downloads](https://img.shields.io/pypi/dm/transformers) |
 | [rdmo](https://github.com/rdmorganiser/rdmo/commits?author=afuetterer) | [![PyPI version](https://img.shields.io/pypi/v/rdmo)](https://pypi.org/project/rdmo/) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo) | ![Downloads](https://img.shields.io/pypi/dm/rdmo) |
 | [rdmo-catalog](https://github.com/rdmorganiser/rdmo-catalog/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo-catalog) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo-catalog) | |
 | [rdmo-docs-en](https://github.com/rdmorganiser/rdmo-docs-en/commits?author=afuetterer) | | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo-docs-en) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo-docs-en) | |
