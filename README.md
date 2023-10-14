@@ -38,6 +38,7 @@ repos = [
     "rdmorganiser/rdmo-docs-en",
     "pangaea-data-publisher/fuji",
     "ddionrails/ddionrails",
+    "galaxyproject/galaxy",
 ]
 repos = sorted(repos, key=lambda x: x.split("/")[1])
 not_on_pypi = {
@@ -46,6 +47,7 @@ not_on_pypi = {
     "ddionrails/ddionrails",
     "rdmorganiser/rdmo-catalog",
     "rdmorganiser/rdmo-docs-en",
+    "galaxyproject/galaxy",
 }
 
 header = "| Name  |  Last Commit | # Stars | Version | # Downloads |\n| ----  | ------- | ----------- | ------- | ----------- |"
@@ -82,6 +84,7 @@ for repo in repos:
 | [django-allauth](https://github.com/pennersr/django-allauth/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/pennersr/django-allauth) | ![GitHub last commit](https://img.shields.io/github/last-commit/pennersr/django-allauth) | [![PyPI version](https://img.shields.io/pypi/v/django-allauth)](https://pypi.org/project/django-allauth/) | ![Downloads](https://img.shields.io/pypi/dm/django-allauth) |
 | [drf-spectacular](https://github.com/tfranzel/drf-spectacular/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/tfranzel/drf-spectacular) | ![GitHub last commit](https://img.shields.io/github/last-commit/tfranzel/drf-spectacular) | [![PyPI version](https://img.shields.io/pypi/v/drf-spectacular)](https://pypi.org/project/drf-spectacular/) | ![Downloads](https://img.shields.io/pypi/dm/drf-spectacular) |
 | [fuji](https://github.com/pangaea-data-publisher/fuji/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/pangaea-data-publisher/fuji) | ![GitHub last commit](https://img.shields.io/github/last-commit/pangaea-data-publisher/fuji) | | |
+| [galaxy](https://github.com/galaxyproject/galaxy/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/galaxyproject/galaxy) | ![GitHub last commit](https://img.shields.io/github/last-commit/galaxyproject/galaxy) | | |
 | [numpy](https://github.com/numpy/numpy/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/numpy/numpy) | ![GitHub last commit](https://img.shields.io/github/last-commit/numpy/numpy) | [![PyPI version](https://img.shields.io/pypi/v/numpy)](https://pypi.org/project/numpy/) | ![Downloads](https://img.shields.io/pypi/dm/numpy) |
 | [python-semantic-release](https://github.com/python-semantic-release/python-semantic-release/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/python-semantic-release/python-semantic-release) | ![GitHub last commit](https://img.shields.io/github/last-commit/python-semantic-release/python-semantic-release) | [![PyPI version](https://img.shields.io/pypi/v/python-semantic-release)](https://pypi.org/project/python-semantic-release/) | ![Downloads](https://img.shields.io/pypi/dm/python-semantic-release) |
 | [rdmo](https://github.com/rdmorganiser/rdmo/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo) | [![PyPI version](https://img.shields.io/pypi/v/rdmo)](https://pypi.org/project/rdmo/) | ![Downloads](https://img.shields.io/pypi/dm/rdmo) |
