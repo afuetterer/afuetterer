@@ -39,6 +39,7 @@ repos = [
     "pangaea-data-publisher/fuji",
     "ddionrails/ddionrails",
     "galaxyproject/galaxy",
+    "iterative/dvc",
 ]
 repos = sorted(repos, key=lambda x: x.split("/")[1])
 not_on_pypi = {
@@ -83,6 +84,7 @@ for repo in repos:
 | [ddionrails](https://github.com/ddionrails/ddionrails/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/ddionrails/ddionrails) | ![GitHub last commit](https://img.shields.io/github/last-commit/ddionrails/ddionrails) | | |
 | [django-allauth](https://github.com/pennersr/django-allauth/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/pennersr/django-allauth) | ![GitHub last commit](https://img.shields.io/github/last-commit/pennersr/django-allauth) | [![PyPI version](https://img.shields.io/pypi/v/django-allauth)](https://pypi.org/project/django-allauth/) | ![Downloads](https://img.shields.io/pypi/dm/django-allauth) |
 | [drf-spectacular](https://github.com/tfranzel/drf-spectacular/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/tfranzel/drf-spectacular) | ![GitHub last commit](https://img.shields.io/github/last-commit/tfranzel/drf-spectacular) | [![PyPI version](https://img.shields.io/pypi/v/drf-spectacular)](https://pypi.org/project/drf-spectacular/) | ![Downloads](https://img.shields.io/pypi/dm/drf-spectacular) |
+| [dvc](https://github.com/iterative/dvc/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/iterative/dvc) | ![GitHub last commit](https://img.shields.io/github/last-commit/iterative/dvc) | [![PyPI version](https://img.shields.io/pypi/v/dvc)](https://pypi.org/project/dvc/) | ![Downloads](https://img.shields.io/pypi/dm/dvc) |
 | [fuji](https://github.com/pangaea-data-publisher/fuji/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/pangaea-data-publisher/fuji) | ![GitHub last commit](https://img.shields.io/github/last-commit/pangaea-data-publisher/fuji) | | |
 | [galaxy](https://github.com/galaxyproject/galaxy/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/galaxyproject/galaxy) | ![GitHub last commit](https://img.shields.io/github/last-commit/galaxyproject/galaxy) | | |
 | [numpy](https://github.com/numpy/numpy/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/numpy/numpy) | ![GitHub last commit](https://img.shields.io/github/last-commit/numpy/numpy) | [![PyPI version](https://img.shields.io/pypi/v/numpy)](https://pypi.org/project/numpy/) | ![Downloads](https://img.shields.io/pypi/dm/numpy) |
