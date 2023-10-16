@@ -21,6 +21,7 @@ My name is Heinz-Alexander Fuetterer and I am a research data management officer
 I have contributed to these open-source projects, among others:
 
 <!-- adapted from https://github.com/cjolowicz/cjolowicz/blob/main/README.md -->
+<!-- run "cog -r README.md" >
 <!-- [[[cog
 
 repos = [
@@ -30,6 +31,7 @@ repos = [
     "pennersr/django-allauth",
     "schemathesis/schemathesis",
     "astropy/astropy",
+    "huggingface/diffusers",
     "huggingface/transformers",
     "numpy/numpy",
     "spec-first/connexion",
@@ -40,6 +42,7 @@ repos = [
     "ddionrails/ddionrails",
     "galaxyproject/galaxy",
     "iterative/dvc",
+    "re3data/using_the_re3data_API",
 ]
 repos = sorted(repos, key=lambda x: x.split("/")[1])
 not_on_pypi = {
@@ -49,6 +52,7 @@ not_on_pypi = {
     "rdmorganiser/rdmo-catalog",
     "rdmorganiser/rdmo-docs-en",
     "galaxyproject/galaxy",
+    "re3data/using_the_re3data_API",
 }
 
 header = "| Name  |  Last Commit | # Stars | Version | # Downloads |\n| ----  | ------- | ----------- | ------- | ----------- |"
@@ -82,6 +86,7 @@ for repo in repos:
 | [connexion](https://github.com/spec-first/connexion/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/spec-first/connexion) | ![GitHub last commit](https://img.shields.io/github/last-commit/spec-first/connexion) | [![PyPI version](https://img.shields.io/pypi/v/connexion)](https://pypi.org/project/connexion/) | ![Downloads](https://img.shields.io/pypi/dm/connexion) |
 | [cpython](https://github.com/python/cpython/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/python/cpython) | ![GitHub last commit](https://img.shields.io/github/last-commit/python/cpython) | | |
 | [ddionrails](https://github.com/ddionrails/ddionrails/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/ddionrails/ddionrails) | ![GitHub last commit](https://img.shields.io/github/last-commit/ddionrails/ddionrails) | | |
+| [diffusers](https://github.com/huggingface/diffusers/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/huggingface/diffusers) | ![GitHub last commit](https://img.shields.io/github/last-commit/huggingface/diffusers) | [![PyPI version](https://img.shields.io/pypi/v/diffusers)](https://pypi.org/project/diffusers/) | ![Downloads](https://img.shields.io/pypi/dm/diffusers) |
 | [django-allauth](https://github.com/pennersr/django-allauth/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/pennersr/django-allauth) | ![GitHub last commit](https://img.shields.io/github/last-commit/pennersr/django-allauth) | [![PyPI version](https://img.shields.io/pypi/v/django-allauth)](https://pypi.org/project/django-allauth/) | ![Downloads](https://img.shields.io/pypi/dm/django-allauth) |
 | [drf-spectacular](https://github.com/tfranzel/drf-spectacular/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/tfranzel/drf-spectacular) | ![GitHub last commit](https://img.shields.io/github/last-commit/tfranzel/drf-spectacular) | [![PyPI version](https://img.shields.io/pypi/v/drf-spectacular)](https://pypi.org/project/drf-spectacular/) | ![Downloads](https://img.shields.io/pypi/dm/drf-spectacular) |
 | [dvc](https://github.com/iterative/dvc/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/iterative/dvc) | ![GitHub last commit](https://img.shields.io/github/last-commit/iterative/dvc) | [![PyPI version](https://img.shields.io/pypi/v/dvc)](https://pypi.org/project/dvc/) | ![Downloads](https://img.shields.io/pypi/dm/dvc) |
@@ -94,6 +99,7 @@ for repo in repos:
 | [rdmo-docs-en](https://github.com/rdmorganiser/rdmo-docs-en/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo-docs-en) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo-docs-en) | | |
 | [schemathesis](https://github.com/schemathesis/schemathesis/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/schemathesis/schemathesis) | ![GitHub last commit](https://img.shields.io/github/last-commit/schemathesis/schemathesis) | [![PyPI version](https://img.shields.io/pypi/v/schemathesis)](https://pypi.org/project/schemathesis/) | ![Downloads](https://img.shields.io/pypi/dm/schemathesis) |
 | [transformers](https://github.com/huggingface/transformers/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/huggingface/transformers) | ![GitHub last commit](https://img.shields.io/github/last-commit/huggingface/transformers) | [![PyPI version](https://img.shields.io/pypi/v/transformers)](https://pypi.org/project/transformers/) | ![Downloads](https://img.shields.io/pypi/dm/transformers) |
+| [using_the_re3data_API](https://github.com/re3data/using_the_re3data_API/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/re3data/using_the_re3data_API) | ![GitHub last commit](https://img.shields.io/github/last-commit/re3data/using_the_re3data_API) | | |
 <!-- [[[end]]] -->
 
 Follow the links to see the commits I authored for these projects.
