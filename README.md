@@ -106,6 +106,9 @@ for repo in repos:
 
 Follow the links to see the commits I authored for these projects.
 
+### :handshake: Hacktoberfest 2023
+[![An image of @afuetterer's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/afuetterer)](https://holopin.io/@afuetterer)
+
 <!-- Markdown links -->
 
 [python]: https://www.python.org
