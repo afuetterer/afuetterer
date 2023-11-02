@@ -44,6 +44,7 @@ repos = [
     "iterative/dvc",
     "re3data/using_the_re3data_API",
     "tiangolo/fastapi",
+    "inveniosoftware/idutils",
 ]
 repos = sorted(repos, key=lambda x: x.split("/")[1])
 not_on_pypi = {
@@ -94,6 +95,7 @@ for repo in repos:
 | [fastapi](https://github.com/tiangolo/fastapi/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/tiangolo/fastapi) | ![GitHub last commit](https://img.shields.io/github/last-commit/tiangolo/fastapi) | [![PyPI version](https://img.shields.io/pypi/v/fastapi)](https://pypi.org/project/fastapi/) | ![Downloads](https://img.shields.io/pypi/dm/fastapi) |
 | [fuji](https://github.com/pangaea-data-publisher/fuji/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/pangaea-data-publisher/fuji) | ![GitHub last commit](https://img.shields.io/github/last-commit/pangaea-data-publisher/fuji) | | |
 | [galaxy](https://github.com/galaxyproject/galaxy/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/galaxyproject/galaxy) | ![GitHub last commit](https://img.shields.io/github/last-commit/galaxyproject/galaxy) | | |
+| [idutils](https://github.com/inveniosoftware/idutils/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/inveniosoftware/idutils) | ![GitHub last commit](https://img.shields.io/github/last-commit/inveniosoftware/idutils) | [![PyPI version](https://img.shields.io/pypi/v/idutils)](https://pypi.org/project/idutils/) | ![Downloads](https://img.shields.io/pypi/dm/idutils) |
 | [numpy](https://github.com/numpy/numpy/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/numpy/numpy) | ![GitHub last commit](https://img.shields.io/github/last-commit/numpy/numpy) | [![PyPI version](https://img.shields.io/pypi/v/numpy)](https://pypi.org/project/numpy/) | ![Downloads](https://img.shields.io/pypi/dm/numpy) |
 | [python-semantic-release](https://github.com/python-semantic-release/python-semantic-release/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/python-semantic-release/python-semantic-release) | ![GitHub last commit](https://img.shields.io/github/last-commit/python-semantic-release/python-semantic-release) | [![PyPI version](https://img.shields.io/pypi/v/python-semantic-release)](https://pypi.org/project/python-semantic-release/) | ![Downloads](https://img.shields.io/pypi/dm/python-semantic-release) |
 | [rdmo](https://github.com/rdmorganiser/rdmo/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo) | [![PyPI version](https://img.shields.io/pypi/v/rdmo)](https://pypi.org/project/rdmo/) | ![Downloads](https://img.shields.io/pypi/dm/rdmo) |
