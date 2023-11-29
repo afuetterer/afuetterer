@@ -38,6 +38,7 @@ repos = [
     "rdmorganiser/rdmo",
     "rdmorganiser/rdmo-catalog",
     "rdmorganiser/rdmo-docs-en",
+    "rdmorganiser/rdmo-plugins",
     "pangaea-data-publisher/fuji",
     "ddionrails/ddionrails",
     "galaxyproject/galaxy",
@@ -53,6 +54,7 @@ not_on_pypi = {
     "ddionrails/ddionrails",
     "rdmorganiser/rdmo-catalog",
     "rdmorganiser/rdmo-docs-en",
+    "rdmorganiser/rdmo-plugins",
     "galaxyproject/galaxy",
     "re3data/using_the_re3data_API",
 }
@@ -101,6 +103,7 @@ for repo in repos:
 | [rdmo](https://github.com/rdmorganiser/rdmo/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo) | [![PyPI version](https://img.shields.io/pypi/v/rdmo)](https://pypi.org/project/rdmo/) | ![Downloads](https://img.shields.io/pypi/dm/rdmo) |
 | [rdmo-catalog](https://github.com/rdmorganiser/rdmo-catalog/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo-catalog) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo-catalog) | | |
 | [rdmo-docs-en](https://github.com/rdmorganiser/rdmo-docs-en/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo-docs-en) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo-docs-en) | | |
+| [rdmo-plugins](https://github.com/rdmorganiser/rdmo-plugins/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo-plugins) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo-plugins) | | |
 | [schemathesis](https://github.com/schemathesis/schemathesis/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/schemathesis/schemathesis) | ![GitHub last commit](https://img.shields.io/github/last-commit/schemathesis/schemathesis) | [![PyPI version](https://img.shields.io/pypi/v/schemathesis)](https://pypi.org/project/schemathesis/) | ![Downloads](https://img.shields.io/pypi/dm/schemathesis) |
 | [transformers](https://github.com/huggingface/transformers/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/huggingface/transformers) | ![GitHub last commit](https://img.shields.io/github/last-commit/huggingface/transformers) | [![PyPI version](https://img.shields.io/pypi/v/transformers)](https://pypi.org/project/transformers/) | ![Downloads](https://img.shields.io/pypi/dm/transformers) |
 | [using_the_re3data_API](https://github.com/re3data/using_the_re3data_API/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/re3data/using_the_re3data_API) | ![GitHub last commit](https://img.shields.io/github/last-commit/re3data/using_the_re3data_API) | | |
