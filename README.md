@@ -46,12 +46,14 @@ repos = [
     "re3data/using_the_re3data_API",
     "tiangolo/fastapi",
     "inveniosoftware/idutils",
+    "dracor-org/dracor-metrics",
 ]
 repos = sorted(repos, key=lambda x: x.split("/")[1])
 not_on_pypi = {
     "pangaea-data-publisher/fuji",
     "python/cpython",
     "ddionrails/ddionrails",
+    "dracor-org/dracor-metrics",
     "rdmorganiser/rdmo-catalog",
     "rdmorganiser/rdmo-docs-en",
     "rdmorganiser/rdmo-plugins",
@@ -92,6 +94,7 @@ for repo in repos:
 | [ddionrails](https://github.com/ddionrails/ddionrails/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/ddionrails/ddionrails) | ![GitHub last commit](https://img.shields.io/github/last-commit/ddionrails/ddionrails) | | |
 | [diffusers](https://github.com/huggingface/diffusers/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/huggingface/diffusers) | ![GitHub last commit](https://img.shields.io/github/last-commit/huggingface/diffusers) | [![PyPI version](https://img.shields.io/pypi/v/diffusers)](https://pypi.org/project/diffusers/) | ![Downloads](https://img.shields.io/pypi/dm/diffusers) |
 | [django-allauth](https://github.com/pennersr/django-allauth/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/pennersr/django-allauth) | ![GitHub last commit](https://img.shields.io/github/last-commit/pennersr/django-allauth) | [![PyPI version](https://img.shields.io/pypi/v/django-allauth)](https://pypi.org/project/django-allauth/) | ![Downloads](https://img.shields.io/pypi/dm/django-allauth) |
+| [dracor-metrics](https://github.com/dracor-org/dracor-metrics/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/dracor-org/dracor-metrics) | ![GitHub last commit](https://img.shields.io/github/last-commit/dracor-org/dracor-metrics) | | |
 | [drf-spectacular](https://github.com/tfranzel/drf-spectacular/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/tfranzel/drf-spectacular) | ![GitHub last commit](https://img.shields.io/github/last-commit/tfranzel/drf-spectacular) | [![PyPI version](https://img.shields.io/pypi/v/drf-spectacular)](https://pypi.org/project/drf-spectacular/) | ![Downloads](https://img.shields.io/pypi/dm/drf-spectacular) |
 | [dvc](https://github.com/iterative/dvc/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/iterative/dvc) | ![GitHub last commit](https://img.shields.io/github/last-commit/iterative/dvc) | [![PyPI version](https://img.shields.io/pypi/v/dvc)](https://pypi.org/project/dvc/) | ![Downloads](https://img.shields.io/pypi/dm/dvc) |
 | [fastapi](https://github.com/tiangolo/fastapi/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/tiangolo/fastapi) | ![GitHub last commit](https://img.shields.io/github/last-commit/tiangolo/fastapi) | [![PyPI version](https://img.shields.io/pypi/v/fastapi)](https://pypi.org/project/fastapi/) | ![Downloads](https://img.shields.io/pypi/dm/fastapi) |
