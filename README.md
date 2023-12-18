@@ -38,7 +38,8 @@ academic_repos = [
     "re3data/using_the_re3data_API",
     "dracor-org/dracor-api",
     "dracor-org/dracor-metrics",
-    "dracor-org/dracor-notebooks",    
+    "dracor-org/dracor-notebooks",
+    "merenlab/anvio",
 ]
 
 oss_repos = [
@@ -68,6 +69,7 @@ not_on_pypi = {
     "rdmorganiser/rdmo-plugins",
     "galaxyproject/galaxy",
     "re3data/using_the_re3data_API",
+    "merenlab/anvio",
 }
 
 academic_repos = sorted(academic_repos, key=lambda x: x.split("/")[1])
@@ -104,6 +106,7 @@ print_repo_table(oss_repos)
 #### Academia
 | Name  |  Last Commit | # Stars | Version | # Downloads |
 | ----  | ------- | ----------- | ------- | ----------- |
+| [anvio](https://github.com/merenlab/anvio/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/merenlab/anvio) | ![GitHub last commit](https://img.shields.io/github/last-commit/merenlab/anvio) | | |
 | [astropy](https://github.com/astropy/astropy/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/astropy/astropy) | ![GitHub last commit](https://img.shields.io/github/last-commit/astropy/astropy) | [![PyPI version](https://img.shields.io/pypi/v/astropy)](https://pypi.org/project/astropy/) | ![Downloads](https://img.shields.io/pypi/dm/astropy) |
 | [ddionrails](https://github.com/ddionrails/ddionrails/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/ddionrails/ddionrails) | ![GitHub last commit](https://img.shields.io/github/last-commit/ddionrails/ddionrails) | | |
 | [dracor-api](https://github.com/dracor-org/dracor-api/commits?author=afuetterer) | ![GitHub stars](https://img.shields.io/github/stars/dracor-org/dracor-api) | ![GitHub last commit](https://img.shields.io/github/last-commit/dracor-org/dracor-api) | | |
