@@ -54,7 +54,7 @@ def get_commit_counts(repo: str, contributor: str, verbose: bool = False) -> int
                 break
     return commit_count
 
-HEADER = "| Name  | # My Commits | # Stars | Last Commit | Version | # Downloads |\n| ----  | ------- | ---------- | ----------- | ------- | ----------- |"
+HEADER = "| Name  | # My Commits | # Stars | Last Commit | Version | # Downloads |\n| ----  | -------: | ---------- | ----------- | ------- | ----------- |"
 
 academic_repos = [
     "astropy/astropy",
@@ -137,7 +137,7 @@ print_repo_table(oss_repos)
 ]]] -->
 #### Academia
 | Name  | # My Commits | # Stars | Last Commit | Version | # Downloads |
-| ----  | ------- | ---------- | ----------- | ------- | ----------- |
+| ----  | -------: | ---------- | ----------- | ------- | ----------- |
 | [anvio](https://github.com/merenlab/anvio/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/merenlab/anvio) | ![GitHub last commit](https://img.shields.io/github/last-commit/merenlab/anvio) | | |
 | [astropy](https://github.com/astropy/astropy/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/astropy/astropy) | ![GitHub last commit](https://img.shields.io/github/last-commit/astropy/astropy) | [![PyPI version](https://img.shields.io/pypi/v/astropy)](https://pypi.org/project/astropy/) | ![Downloads](https://img.shields.io/pypi/dm/astropy) |
 | [ddionrails](https://github.com/ddionrails/ddionrails/commits?author=afuetterer) | 486 | ![GitHub stars](https://img.shields.io/github/stars/ddionrails/ddionrails) | ![GitHub last commit](https://img.shields.io/github/last-commit/ddionrails/ddionrails) | | |
@@ -153,7 +153,7 @@ print_repo_table(oss_repos)
 | [using_the_re3data_API](https://github.com/re3data/using_the_re3data_API/commits?author=afuetterer) | 7 | ![GitHub stars](https://img.shields.io/github/stars/re3data/using_the_re3data_API) | ![GitHub last commit](https://img.shields.io/github/last-commit/re3data/using_the_re3data_API) | | |
 #### Open Source
 | Name  | # My Commits | # Stars | Last Commit | Version | # Downloads |
-| ----  | ------- | ---------- | ----------- | ------- | ----------- |
+| ----  | -------: | ---------- | ----------- | ------- | ----------- |
 | [connexion](https://github.com/spec-first/connexion/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/spec-first/connexion) | ![GitHub last commit](https://img.shields.io/github/last-commit/spec-first/connexion) | [![PyPI version](https://img.shields.io/pypi/v/connexion)](https://pypi.org/project/connexion/) | ![Downloads](https://img.shields.io/pypi/dm/connexion) |
 | [cpython](https://github.com/python/cpython/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/python/cpython) | ![GitHub last commit](https://img.shields.io/github/last-commit/python/cpython) | | |
 | [diffusers](https://github.com/huggingface/diffusers/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/huggingface/diffusers) | ![GitHub last commit](https://img.shields.io/github/last-commit/huggingface/diffusers) | [![PyPI version](https://img.shields.io/pypi/v/diffusers)](https://pypi.org/project/diffusers/) | ![Downloads](https://img.shields.io/pypi/dm/diffusers) |
