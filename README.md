@@ -70,6 +70,7 @@ academic_repos = [
     "dracor-org/dracor-metrics",
     "dracor-org/dracor-notebooks",
     "merenlab/anvio",
+    "psychopy/psychopy",
 ]
 
 oss_repos = [
@@ -146,9 +147,10 @@ print_repo_table(oss_repos)
 | [dracor-notebooks](https://github.com/dracor-org/dracor-notebooks/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/dracor-org/dracor-notebooks) | ![GitHub last commit](https://img.shields.io/github/last-commit/dracor-org/dracor-notebooks) | | |
 | [fuji](https://github.com/pangaea-data-publisher/fuji/commits?author=afuetterer) | 61 | ![GitHub stars](https://img.shields.io/github/stars/pangaea-data-publisher/fuji) | ![GitHub last commit](https://img.shields.io/github/last-commit/pangaea-data-publisher/fuji) | | |
 | [galaxy](https://github.com/galaxyproject/galaxy/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/galaxyproject/galaxy) | ![GitHub last commit](https://img.shields.io/github/last-commit/galaxyproject/galaxy) | | |
+| [psychopy](https://github.com/psychopy/psychopy/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/psychopy/psychopy) | ![GitHub last commit](https://img.shields.io/github/last-commit/psychopy/psychopy) | [![PyPI version](https://img.shields.io/pypi/v/psychopy)](https://pypi.org/project/psychopy/) | ![Downloads](https://img.shields.io/pypi/dm/psychopy) |
 | [rdmo](https://github.com/rdmorganiser/rdmo/commits?author=afuetterer) | 106 | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo) | [![PyPI version](https://img.shields.io/pypi/v/rdmo)](https://pypi.org/project/rdmo/) | ![Downloads](https://img.shields.io/pypi/dm/rdmo) |
 | [rdmo-catalog](https://github.com/rdmorganiser/rdmo-catalog/commits?author=afuetterer) | 2 | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo-catalog) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo-catalog) | | |
-| [rdmo-docs-en](https://github.com/rdmorganiser/rdmo-docs-en/commits?author=afuetterer) | 8 | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo-docs-en) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo-docs-en) | | |
+| [rdmo-docs-en](https://github.com/rdmorganiser/rdmo-docs-en/commits?author=afuetterer) | 9 | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo-docs-en) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo-docs-en) | | |
 | [rdmo-plugins](https://github.com/rdmorganiser/rdmo-plugins/commits?author=afuetterer) | 5 | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo-plugins) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo-plugins) | | |
 | [using_the_re3data_API](https://github.com/re3data/using_the_re3data_API/commits?author=afuetterer) | 7 | ![GitHub stars](https://img.shields.io/github/stars/re3data/using_the_re3data_API) | ![GitHub last commit](https://img.shields.io/github/last-commit/re3data/using_the_re3data_API) | | |
 #### Open Source
