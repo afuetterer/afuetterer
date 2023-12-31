@@ -71,6 +71,7 @@ academic_repos = [
     "dracor-org/dracor-notebooks",
     "merenlab/anvio",
     "psychopy/psychopy",
+    "PlasmaPy/PlasmaPy",
 ]
 
 oss_repos = [
@@ -139,12 +140,13 @@ print_repo_table(oss_repos)
 #### Academia
 | Name  | # My Commits | # Stars | Last Commit | Version | # Downloads |
 | ----  | -------: | ---------- | ----------- | ------- | ----------- |
+| [PlasmaPy](https://github.com/PlasmaPy/PlasmaPy/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/PlasmaPy/PlasmaPy) | ![GitHub last commit](https://img.shields.io/github/last-commit/PlasmaPy/PlasmaPy) | [![PyPI version](https://img.shields.io/pypi/v/PlasmaPy)](https://pypi.org/project/PlasmaPy/) | ![Downloads](https://img.shields.io/pypi/dm/PlasmaPy) |
 | [anvio](https://github.com/merenlab/anvio/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/merenlab/anvio) | ![GitHub last commit](https://img.shields.io/github/last-commit/merenlab/anvio) | | |
 | [astropy](https://github.com/astropy/astropy/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/astropy/astropy) | ![GitHub last commit](https://img.shields.io/github/last-commit/astropy/astropy) | [![PyPI version](https://img.shields.io/pypi/v/astropy)](https://pypi.org/project/astropy/) | ![Downloads](https://img.shields.io/pypi/dm/astropy) |
 | [ddionrails](https://github.com/ddionrails/ddionrails/commits?author=afuetterer) | 486 | ![GitHub stars](https://img.shields.io/github/stars/ddionrails/ddionrails) | ![GitHub last commit](https://img.shields.io/github/last-commit/ddionrails/ddionrails) | | |
 | [dracor-api](https://github.com/dracor-org/dracor-api/commits?author=afuetterer) | 5 | ![GitHub stars](https://img.shields.io/github/stars/dracor-org/dracor-api) | ![GitHub last commit](https://img.shields.io/github/last-commit/dracor-org/dracor-api) | | |
 | [dracor-metrics](https://github.com/dracor-org/dracor-metrics/commits?author=afuetterer) | 7 | ![GitHub stars](https://img.shields.io/github/stars/dracor-org/dracor-metrics) | ![GitHub last commit](https://img.shields.io/github/last-commit/dracor-org/dracor-metrics) | | |
-| [dracor-notebooks](https://github.com/dracor-org/dracor-notebooks/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/dracor-org/dracor-notebooks) | ![GitHub last commit](https://img.shields.io/github/last-commit/dracor-org/dracor-notebooks) | | |
+| [dracor-notebooks](https://github.com/dracor-org/dracor-notebooks/commits?author=afuetterer) | 2 | ![GitHub stars](https://img.shields.io/github/stars/dracor-org/dracor-notebooks) | ![GitHub last commit](https://img.shields.io/github/last-commit/dracor-org/dracor-notebooks) | | |
 | [fuji](https://github.com/pangaea-data-publisher/fuji/commits?author=afuetterer) | 61 | ![GitHub stars](https://img.shields.io/github/stars/pangaea-data-publisher/fuji) | ![GitHub last commit](https://img.shields.io/github/last-commit/pangaea-data-publisher/fuji) | | |
 | [galaxy](https://github.com/galaxyproject/galaxy/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/galaxyproject/galaxy) | ![GitHub last commit](https://img.shields.io/github/last-commit/galaxyproject/galaxy) | | |
 | [psychopy](https://github.com/psychopy/psychopy/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/psychopy/psychopy) | ![GitHub last commit](https://img.shields.io/github/last-commit/psychopy/psychopy) | [![PyPI version](https://img.shields.io/pypi/v/psychopy)](https://pypi.org/project/psychopy/) | ![Downloads](https://img.shields.io/pypi/dm/psychopy) |
