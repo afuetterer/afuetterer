@@ -34,6 +34,7 @@ def get_commit_counts(repo: str, contributor: str, verbose: bool = False) -> int
     with requests.Session() as session:
         while True:
             response = session.get(url, params=params)
+            print(response)
             if response.status_code == 200:
                 commits = response.json()
                 for commit in commits:
@@ -72,6 +73,7 @@ academic_repos = [
     "merenlab/anvio",
     "psychopy/psychopy",
     "plasmapy/plasmapy",
+    "pymeasure/pymeasure",
 ]
 
 oss_repos = [
@@ -150,6 +152,7 @@ print_repo_table(oss_repos)
 | [galaxy](https://github.com/galaxyproject/galaxy/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/galaxyproject/galaxy) | ![GitHub last commit](https://img.shields.io/github/last-commit/galaxyproject/galaxy) | | |
 | [plasmapy](https://github.com/plasmapy/plasmapy/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/plasmapy/plasmapy) | ![GitHub last commit](https://img.shields.io/github/last-commit/plasmapy/plasmapy) | [![PyPI version](https://img.shields.io/pypi/v/plasmapy)](https://pypi.org/project/plasmapy/) | ![Downloads](https://img.shields.io/pypi/dm/plasmapy) |
 | [psychopy](https://github.com/psychopy/psychopy/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/psychopy/psychopy) | ![GitHub last commit](https://img.shields.io/github/last-commit/psychopy/psychopy) | [![PyPI version](https://img.shields.io/pypi/v/psychopy)](https://pypi.org/project/psychopy/) | ![Downloads](https://img.shields.io/pypi/dm/psychopy) |
+| [pymeasure](https://github.com/pymeasure/pymeasure/commits?author=afuetterer) | 2 | ![GitHub stars](https://img.shields.io/github/stars/pymeasure/pymeasure) | ![GitHub last commit](https://img.shields.io/github/last-commit/pymeasure/pymeasure) | [![PyPI version](https://img.shields.io/pypi/v/pymeasure)](https://pypi.org/project/pymeasure/) | ![Downloads](https://img.shields.io/pypi/dm/pymeasure) |
 | [rdmo](https://github.com/rdmorganiser/rdmo/commits?author=afuetterer) | 106 | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo) | [![PyPI version](https://img.shields.io/pypi/v/rdmo)](https://pypi.org/project/rdmo/) | ![Downloads](https://img.shields.io/pypi/dm/rdmo) |
 | [rdmo-catalog](https://github.com/rdmorganiser/rdmo-catalog/commits?author=afuetterer) | 2 | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo-catalog) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo-catalog) | | |
 | [rdmo-docs-en](https://github.com/rdmorganiser/rdmo-docs-en/commits?author=afuetterer) | 9 | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo-docs-en) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo-docs-en) | | |
