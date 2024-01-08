@@ -72,6 +72,7 @@ academic_repos = [
     "dracor-org/dracor-fuseki",
     "dracor-org/dracor-metrics",
     "dracor-org/dracor-notebooks",
+    "dracor-org/pydracor",
     "merenlab/anvio",
     "psychopy/psychopy",
     "plasmapy/plasmapy",
@@ -158,6 +159,7 @@ print_repo_table(oss_repos)
 | [galaxy](https://github.com/galaxyproject/galaxy/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/galaxyproject/galaxy) | ![GitHub last commit](https://img.shields.io/github/last-commit/galaxyproject/galaxy) | | |
 | [plasmapy](https://github.com/plasmapy/plasmapy/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/plasmapy/plasmapy) | ![GitHub last commit](https://img.shields.io/github/last-commit/plasmapy/plasmapy) | [![PyPI version](https://img.shields.io/pypi/v/plasmapy)](https://pypi.org/project/plasmapy/) | ![Downloads](https://img.shields.io/pypi/dm/plasmapy) |
 | [psychopy](https://github.com/psychopy/psychopy/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/psychopy/psychopy) | ![GitHub last commit](https://img.shields.io/github/last-commit/psychopy/psychopy) | [![PyPI version](https://img.shields.io/pypi/v/psychopy)](https://pypi.org/project/psychopy/) | ![Downloads](https://img.shields.io/pypi/dm/psychopy) |
+| [pydracor](https://github.com/dracor-org/pydracor/commits?author=afuetterer) | 2 | ![GitHub stars](https://img.shields.io/github/stars/dracor-org/pydracor) | ![GitHub last commit](https://img.shields.io/github/last-commit/dracor-org/pydracor) | [![PyPI version](https://img.shields.io/pypi/v/pydracor)](https://pypi.org/project/pydracor/) | ![Downloads](https://img.shields.io/pypi/dm/pydracor) |
 | [pymeasure](https://github.com/pymeasure/pymeasure/commits?author=afuetterer) | 2 | ![GitHub stars](https://img.shields.io/github/stars/pymeasure/pymeasure) | ![GitHub last commit](https://img.shields.io/github/last-commit/pymeasure/pymeasure) | [![PyPI version](https://img.shields.io/pypi/v/pymeasure)](https://pypi.org/project/pymeasure/) | ![Downloads](https://img.shields.io/pypi/dm/pymeasure) |
 | [rdmo](https://github.com/rdmorganiser/rdmo/commits?author=afuetterer) | 106 | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo) | [![PyPI version](https://img.shields.io/pypi/v/rdmo)](https://pypi.org/project/rdmo/) | ![Downloads](https://img.shields.io/pypi/dm/rdmo) |
 | [rdmo-catalog](https://github.com/rdmorganiser/rdmo-catalog/commits?author=afuetterer) | 2 | ![GitHub stars](https://img.shields.io/github/stars/rdmorganiser/rdmo-catalog) | ![GitHub last commit](https://img.shields.io/github/last-commit/rdmorganiser/rdmo-catalog) | | |
