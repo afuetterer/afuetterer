@@ -93,6 +93,7 @@ oss_repos = [
     "huggingface/transformers",
     "numpy/numpy",
     "frictionlessdata/frictionless-py",
+    "tefra/xsdata",
 ]
 
 not_on_pypi = {
@@ -156,7 +157,7 @@ print_repo_table(oss_repos)
 | [dracor-fuseki](https://github.com/dracor-org/dracor-fuseki/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/dracor-org/dracor-fuseki) | ![GitHub last commit](https://img.shields.io/github/last-commit/dracor-org/dracor-fuseki) | | |
 | [dracor-metrics](https://github.com/dracor-org/dracor-metrics/commits?author=afuetterer) | 7 | ![GitHub stars](https://img.shields.io/github/stars/dracor-org/dracor-metrics) | ![GitHub last commit](https://img.shields.io/github/last-commit/dracor-org/dracor-metrics) | | |
 | [dracor-notebooks](https://github.com/dracor-org/dracor-notebooks/commits?author=afuetterer) | 2 | ![GitHub stars](https://img.shields.io/github/stars/dracor-org/dracor-notebooks) | ![GitHub last commit](https://img.shields.io/github/last-commit/dracor-org/dracor-notebooks) | | |
-| [fuji](https://github.com/pangaea-data-publisher/fuji/commits?author=afuetterer) | 70 | ![GitHub stars](https://img.shields.io/github/stars/pangaea-data-publisher/fuji) | ![GitHub last commit](https://img.shields.io/github/last-commit/pangaea-data-publisher/fuji) | | |
+| [fuji](https://github.com/pangaea-data-publisher/fuji/commits?author=afuetterer) | 73 | ![GitHub stars](https://img.shields.io/github/stars/pangaea-data-publisher/fuji) | ![GitHub last commit](https://img.shields.io/github/last-commit/pangaea-data-publisher/fuji) | | |
 | [galaxy](https://github.com/galaxyproject/galaxy/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/galaxyproject/galaxy) | ![GitHub last commit](https://img.shields.io/github/last-commit/galaxyproject/galaxy) | | |
 | [plasmapy](https://github.com/plasmapy/plasmapy/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/plasmapy/plasmapy) | ![GitHub last commit](https://img.shields.io/github/last-commit/plasmapy/plasmapy) | [![PyPI version](https://img.shields.io/pypi/v/plasmapy)](https://pypi.org/project/plasmapy/) | ![Downloads](https://img.shields.io/pypi/dm/plasmapy) |
 | [psychopy](https://github.com/psychopy/psychopy/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/psychopy/psychopy) | ![GitHub last commit](https://img.shields.io/github/last-commit/psychopy/psychopy) | [![PyPI version](https://img.shields.io/pypi/v/psychopy)](https://pypi.org/project/psychopy/) | ![Downloads](https://img.shields.io/pypi/dm/psychopy) |
@@ -183,6 +184,7 @@ print_repo_table(oss_repos)
 | [python-semantic-release](https://github.com/python-semantic-release/python-semantic-release/commits?author=afuetterer) | 6 | ![GitHub stars](https://img.shields.io/github/stars/python-semantic-release/python-semantic-release) | ![GitHub last commit](https://img.shields.io/github/last-commit/python-semantic-release/python-semantic-release) | [![PyPI version](https://img.shields.io/pypi/v/python-semantic-release)](https://pypi.org/project/python-semantic-release/) | ![Downloads](https://img.shields.io/pypi/dm/python-semantic-release) |
 | [schemathesis](https://github.com/schemathesis/schemathesis/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/schemathesis/schemathesis) | ![GitHub last commit](https://img.shields.io/github/last-commit/schemathesis/schemathesis) | [![PyPI version](https://img.shields.io/pypi/v/schemathesis)](https://pypi.org/project/schemathesis/) | ![Downloads](https://img.shields.io/pypi/dm/schemathesis) |
 | [transformers](https://github.com/huggingface/transformers/commits?author=afuetterer) | 1 | ![GitHub stars](https://img.shields.io/github/stars/huggingface/transformers) | ![GitHub last commit](https://img.shields.io/github/last-commit/huggingface/transformers) | [![PyPI version](https://img.shields.io/pypi/v/transformers)](https://pypi.org/project/transformers/) | ![Downloads](https://img.shields.io/pypi/dm/transformers) |
+| [xsdata](https://github.com/tefra/xsdata/commits?author=afuetterer) | 2 | ![GitHub stars](https://img.shields.io/github/stars/tefra/xsdata) | ![GitHub last commit](https://img.shields.io/github/last-commit/tefra/xsdata) | [![PyPI version](https://img.shields.io/pypi/v/xsdata)](https://pypi.org/project/xsdata/) | ![Downloads](https://img.shields.io/pypi/dm/xsdata) |
 <!-- [[[end]]] -->
 
 ### :handshake: Hacktoberfest 2023
