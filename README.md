@@ -1,6 +1,6 @@
 ## :wave: Hi, I am afuetterer (Heinz-Alexander Fütterer)
 
-![visitors](https://vbr.wocr.tk/badge?page_id=afuetterer.afuetterer&color=00cf00)
+![visitors](https://komarev.com/ghpvc/?username=afuetterer)
 
 My name is Heinz-Alexander Fütterer and I am a research data management officer at the University Library of Freie Universität Berlin. I am passionate about open source, open data and research software engineering.
 
