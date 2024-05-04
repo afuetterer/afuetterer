@@ -1,0 +1,42 @@
+name: Update contributions
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: # run manually from actions tab
+  schedule:
+  - cron: 0 0 * * 1 # run once a week at monday midnight
+
+concurrency:
+  group: update-${{ github.head_ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHONUNBUFFERED: 1
+  FORCE_COLOR: 1
+
+permissions:
+  contents: read
+
+jobs:
+  update-contributions:
+    # Disables this workflow from running in a repository that is not part of the indicated organization/user
+    if: github.repository_owner == 'afuetterer'
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
+      with:
+        python-version: 3.x
+    - name: Install requirements
+      run: |
+        python -m pip install "cogapp>=3.4" "requests>=2.31"
+        python -m pip list
+    - run: cog -r README.md
+    - uses: EndBug/add-and-commit@a94899bca583c204427a224a7af87c02f9b325d5 # v9.1.4
+      with:
+        add: README.md
+        default_author: github_actions
+        message: "chore: update contributions"
