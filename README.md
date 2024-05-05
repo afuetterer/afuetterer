@@ -14,7 +14,7 @@ My name is Heinz-Alexander Fütterer and I am a research data management officer
 
 ### :chart_with_upwards_trend: GitHub Stats
 
-![metrics](https://metrics.lecoq.io/afuetterer?template=classic&languages=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&languages=false&languages.limit=5&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.analysis.timeout.repositories=7.5&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&config.timezone=Europe%2FBerlin)
+![metrics](/github-metrics.svg)
 
 ### :handshake: Contributions
 
@@ -197,10 +197,10 @@ print_repo_table(oss_repos)
 | [xsdata](https://github.com/tefra/xsdata/commits?author=afuetterer) | 4 | ![GitHub stars](https://img.shields.io/github/stars/tefra/xsdata) | ![GitHub last commit](https://img.shields.io/github/last-commit/tefra/xsdata) | [![PyPI version](https://img.shields.io/pypi/v/xsdata)](https://pypi.org/project/xsdata/) | ![Downloads](https://img.shields.io/pypi/dm/xsdata) |
 <!-- [[[end]]] -->
 
-### :handshake: Hacktoberfest 2023
+### :handshake: Holopin Badges
 [![An image of @afuetterer's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/afuetterer)](https://holopin.io/@afuetterer)
 
-<!-- Markdown links -->
+<!-- Refs -->
 
 [python]: https://www.python.org
 [python-badge]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=white
@@ -212,7 +212,3 @@ print_repo_table(oss_repos)
 [django-badge]: https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white
 [flask]: https://flask.palletsprojects.com
 [flask-badge]: https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white
-
-<!-- 
-metrics: https://github.com/lowlighter/metrics
--->
