@@ -2,7 +2,7 @@
 
 ![visitors](https://komarev.com/ghpvc/?username=afuetterer)
 
-My name is Heinz-Alexander Fütterer and I am a research data management officer at the University Library of Freie Universität Berlin. I am passionate about open source, open data and research software engineering.
+I am a research data management officer at the University Library of Freie Universität Berlin. I am passionate about open source, open data and research software engineering.
 
 ### :wrench: Skills
 
@@ -15,6 +15,14 @@ My name is Heinz-Alexander Fütterer and I am a research data management officer
 ### :chart_with_upwards_trend: GitHub Stats
 
 ![metrics](/github-metrics.svg)
+
+### :ok_hand: My Projects
+
+I maintain these open source projects:
+
+| Name  | # Stars | Last Commit | Version | # Downloads |
+| ----  | ------: | ----------- | ------- | ----------- |
+| [oaipmh-scythe](https://github.com/afuetterer/oaipmh-scythe) | ![GitHub stars](https://img.shields.io/github/stars/afuetterer/oaipmh-scythe) | ![GitHub last commit](https://img.shields.io/github/last-commit/afuetterer/oaipmh-scythe) | [![PyPI version](https://img.shields.io/pypi/v/oaipmh-scythe)](https://pypi.org/project/oaipmh-scythe/) | ![Downloads](https://img.shields.io/pypi/dm/oaipmh-scythe) |
 
 ### :handshake: Contributions
 
