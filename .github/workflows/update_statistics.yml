@@ -1,0 +1,25 @@
+name: Update Statistics
+
+on:
+  workflow_dispatch: # run manually from actions tab
+  schedule:
+  - cron: 0 0 * * 1 # run once a week at monday midnight
+
+permissions:
+  contents: read
+
+jobs:
+  update-statistics:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Generate the user stats image
+      # Ref: https://github.com/cicirello/user-statistician?tab=readme-ov-file#inputs
+      uses: cicirello/user-statistician@351b0a020d4aa89b11f686eb3f291b505b3c73a3 # v1.22.1
+      with:
+        image-file: images/statistics.svg
+        include-title: false
+        featured-repository: oaipmh-scythe
+        hide-keys: private mostStarred
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

@@ -12,9 +12,9 @@ I am a research data management officer at the University Library of Freie Unive
 [![Django][django-badge]][django]
 [![Flask][flask-badge]][flask]
 
-### :chart_with_upwards_trend: GitHub Stats
+### :chart_with_upwards_trend: GitHub Statistics
 
-![metrics](/github-metrics.svg)
+![statistics](/images/statistics.svg)
 
 ### :ok_hand: My Projects
 
