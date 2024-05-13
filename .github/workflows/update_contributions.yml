@@ -3,6 +3,10 @@ name: Update contributions
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - '.github/**'
+      - 'images/**'
+
   workflow_dispatch: # run manually from actions tab
   schedule:
   - cron: 0 0 * * 1 # run once a week at monday midnight
