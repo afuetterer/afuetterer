@@ -11,6 +11,8 @@ permissions:
 jobs:
   update-statistics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     - uses: actions/checkout@v4
     - name: Generate the user stats image
