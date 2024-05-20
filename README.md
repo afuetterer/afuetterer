@@ -23,6 +23,7 @@ I maintain these open source projects:
 | Name  | # Stars | Last Commit | Version | # Downloads |
 | ----  | ------: | ----------- | ------- | ----------- |
 | [oaipmh-scythe](https://github.com/afuetterer/oaipmh-scythe) | ![GitHub stars](https://img.shields.io/github/stars/afuetterer/oaipmh-scythe) | ![GitHub last commit](https://img.shields.io/github/last-commit/afuetterer/oaipmh-scythe) | [![PyPI version](https://img.shields.io/pypi/v/oaipmh-scythe)](https://pypi.org/project/oaipmh-scythe/) | ![Downloads](https://img.shields.io/pypi/dm/oaipmh-scythe) |
+| [python-re3data](https://github.com/afuetterer/python-re3data) | ![GitHub stars](https://img.shields.io/github/stars/afuetterer/python-re3data) | ![GitHub last commit](https://img.shields.io/github/last-commit/afuetterer/python-re3data) | [![PyPI version](https://img.shields.io/pypi/v/python-re3data)](https://pypi.org/project/python-re3data/) | ![Downloads](https://img.shields.io/pypi/dm/python-re3data) |
 
 ### :handshake: Contributions
 
