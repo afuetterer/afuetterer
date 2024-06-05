@@ -88,6 +88,7 @@ academic_repos = [
     "pymeasure/pymeasure",
     "gtonkinhill/panaroo",
     "maartengr/bertopic",
+    "nickjcroucher/gubbins",
 ]
 
 oss_repos = [
@@ -124,6 +125,7 @@ not_on_pypi = {
     "re3data/using_the_re3data_API",
     "merenlab/anvio",
     "gtonkinhill/panaroo",
+    "nickjcroucher/gubbins",
 }
 
 academic_repos = sorted(academic_repos, key=lambda x: x.split("/")[1])
