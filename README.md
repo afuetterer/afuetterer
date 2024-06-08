@@ -89,6 +89,7 @@ academic_repos = [
     "gtonkinhill/panaroo",
     "maartengr/bertopic",
     "nickjcroucher/gubbins",
+    "maartengr/keybert",
 ]
 
 oss_repos = [
