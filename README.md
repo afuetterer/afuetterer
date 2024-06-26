@@ -108,6 +108,7 @@ oss_repos = [
     "frictionlessdata/frictionless-py",
     "tefra/xsdata",
     "vitalik/django-ninja",
+    "provinzkraut/unasyncd",
 ]
 
 not_on_pypi = {
