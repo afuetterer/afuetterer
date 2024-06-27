@@ -90,6 +90,7 @@ academic_repos = [
     "maartengr/bertopic",
     "nickjcroucher/gubbins",
     "maartengr/keybert",
+    "PyPSA/powerplantmatching",
 ]
 
 oss_repos = [
