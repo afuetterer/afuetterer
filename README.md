@@ -91,6 +91,7 @@ academic_repos = [
     "nickjcroucher/gubbins",
     "maartengr/keybert",
     "PyPSA/powerplantmatching",
+    "PyPSA/PyPSA",
 ]
 
 oss_repos = [
