@@ -217,8 +217,12 @@ print_repo_table(oss_repos)
 | [xsdata](https://github.com/tefra/xsdata/commits?author=afuetterer) | 4 | ![GitHub stars](https://img.shields.io/github/stars/tefra/xsdata) | ![GitHub last commit](https://img.shields.io/github/last-commit/tefra/xsdata) | [![PyPI version](https://img.shields.io/pypi/v/xsdata)](https://pypi.org/project/xsdata/) | ![Downloads](https://img.shields.io/pypi/dm/xsdata) |
 <!-- [[[end]]] -->
 
+<details>
+<summary>:handshake: Holopin Badges</summary>
+
 ### :handshake: Holopin Badges
 [![An image of @afuetterer's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/afuetterer)](https://holopin.io/@afuetterer)
+</details>
 
 <!-- Refs -->
 
