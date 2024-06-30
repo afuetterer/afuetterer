@@ -92,6 +92,8 @@ academic_repos = [
     "maartengr/keybert",
     "pypsa/powerplantmatching",
     "pypsa/pypsa",
+    "pypsa/linopy",
+    "pypsa/atlite",
 ]
 
 oss_repos = [
