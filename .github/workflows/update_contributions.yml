@@ -1,4 +1,4 @@
-name: Update contributions
+name: Update Contributions
 
 on:
   push:
@@ -19,8 +19,7 @@ env:
   PYTHONUNBUFFERED: 1
   FORCE_COLOR: 1
 
-permissions:
-  contents: read
+permissions: {} # Set permissions at the job level.
 
 jobs:
   update-contributions:
