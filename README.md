@@ -87,9 +87,7 @@ academic_repos = [
     "plasmapy/plasmapy",
     "pymeasure/pymeasure",
     "gtonkinhill/panaroo",
-    "maartengr/bertopic",
     "nickjcroucher/gubbins",
-    "maartengr/keybert",
     "pypsa/powerplantmatching",
     "pypsa/pypsa",
     "pypsa/linopy",
@@ -113,6 +111,8 @@ oss_repos = [
     "tefra/xsdata",
     "vitalik/django-ninja",
     "provinzkraut/unasyncd",
+    "maartengr/bertopic",
+    "maartengr/keybert",
 ]
 
 not_on_pypi = {
