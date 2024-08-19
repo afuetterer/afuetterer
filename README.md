@@ -109,6 +109,7 @@ oss_repos = [
     "provinzkraut/unasyncd",
     "maartengr/bertopic",
     "maartengr/keybert",
+    "provinzkraut/unasyncd",
 ]
 
 not_on_pypi = {
