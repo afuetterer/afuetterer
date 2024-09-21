@@ -88,6 +88,8 @@ academic_repos = [
     "pypsa/pypsa",
     "pypsa/linopy",
     "pypsa/atlite",
+    "openenergyplatform/oeplatform",
+    "theislab/cellrank",
 ]
 
 oss_repos = [
@@ -128,6 +130,7 @@ not_on_pypi = {
     "merenlab/anvio",
     "gtonkinhill/panaroo",
     "nickjcroucher/gubbins",
+    "openenergyplatform/oeplatform",
 }
 
 academic_repos = sorted(academic_repos, key=lambda x: x.split("/")[1])
