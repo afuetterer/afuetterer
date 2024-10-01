@@ -2,7 +2,7 @@
 
 ![visitors](https://komarev.com/ghpvc/?username=afuetterer)
 
-I am a research data management officer at the University Library of Freie Universität Berlin. I am passionate about open source, open data and research software engineering.
+I am a research software engineer at WZB Berlin Social Science Center. I am passionate about open source, open data and research software engineering.
 
 ### :wrench: Skills
 
