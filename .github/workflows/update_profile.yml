@@ -5,7 +5,7 @@ on:
     branches: [main]
   workflow_dispatch: # run manually from actions tab
   schedule:
-  - cron: 0 0 * * 1 # run once a week at monday midnight
+  - cron: 0 0 1 * * # run once a month at midnight
 
 permissions: {} # Set permissions at the job level.
 
