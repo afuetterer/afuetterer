@@ -89,7 +89,6 @@ academic_repos = [
     "pypsa/linopy",
     "pypsa/atlite",
     "openenergyplatform/oeplatform",
-    "theislab/cellrank",
 ]
 
 oss_repos = [
@@ -111,6 +110,7 @@ oss_repos = [
     "provinzkraut/unasyncd",
     "maartengr/bertopic",
     "maartengr/keybert",
+    "scrapy/scrapyd",
 ]
 
 not_on_pypi = {
