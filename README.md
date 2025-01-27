@@ -111,6 +111,7 @@ oss_repos = [
     "maartengr/bertopic",
     "maartengr/keybert",
     "scrapy/scrapyd",
+    "scrapy/scrapyd-client",
 ]
 
 not_on_pypi = {
