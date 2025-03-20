@@ -87,8 +87,8 @@ academic_repos = [
     "pypsa/powerplantmatching",
     "pypsa/pypsa",
     "pypsa/linopy",
-    "pypsa/atlite",
-    "openenergyplatform/oeplatform",
+    "the-turing-way/the-turing-way",
+    "sissaschool/xmlschema",
 ]
 
 oss_repos = [
@@ -122,7 +122,7 @@ not_on_pypi = {
     "dracor-org/dracor-frontend",
     "dracor-org/dracor-fuseki",
     "dracor-org/dracor-metrics",
-    "dracor-org/dracor-notebooks",  
+    "dracor-org/dracor-notebooks",
     "rdmorganiser/rdmo-catalog",
     "rdmorganiser/rdmo-docs-en",
     "rdmorganiser/rdmo-plugins",
@@ -131,7 +131,7 @@ not_on_pypi = {
     "merenlab/anvio",
     "gtonkinhill/panaroo",
     "nickjcroucher/gubbins",
-    "openenergyplatform/oeplatform",
+    "the-turing-way/the-turing-way",
 }
 
 academic_repos = sorted(academic_repos, key=lambda x: x.split("/")[1])
