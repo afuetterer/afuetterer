@@ -112,6 +112,7 @@ oss_repos = [
     "maartengr/keybert",
     "scrapy/scrapyd",
     "scrapy/scrapyd-client",
+    "huggingface/datasets",
 ]
 
 not_on_pypi = {
