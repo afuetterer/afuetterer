@@ -113,6 +113,8 @@ oss_repos = [
     "scrapy/scrapyd",
     "scrapy/scrapyd-client",
     "huggingface/datasets",
+    "spack/spack",
+    "spack/spack-packages",
 ]
 
 not_on_pypi = {
@@ -133,6 +135,8 @@ not_on_pypi = {
     "gtonkinhill/panaroo",
     "nickjcroucher/gubbins",
     "the-turing-way/the-turing-way",
+    "spack/spack",
+    "spack/spack-packages",
 }
 
 academic_repos = sorted(academic_repos, key=lambda x: x.split("/")[1])
