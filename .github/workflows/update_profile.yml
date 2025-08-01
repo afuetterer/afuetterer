@@ -33,7 +33,7 @@ jobs:
 
     - name: Generate the user stats image
       # Ref: https://github.com/cicirello/user-statistician?tab=readme-ov-file#inputs
-      uses: cicirello/user-statistician@edee8cd5f6a1efa2eff5790f1ff7cd6c3e252e50 # v1.24.0
+      uses: cicirello/user-statistician@653508b194a17f5c56ac6d1e64e59ccad28cb968 # v1.24.1
       with:
         image-file: images/statistics.svg
         commit-and-push: false
