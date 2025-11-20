@@ -115,6 +115,7 @@ oss_repos = [
     "huggingface/datasets",
     "spack/spack",
     "spack/spack-packages",
+    "ibm/prompt-declaration-language",
 ]
 
 not_on_pypi = {
