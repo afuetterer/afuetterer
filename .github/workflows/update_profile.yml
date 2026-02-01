@@ -21,7 +21,7 @@ jobs:
     permissions:
       contents: write
     steps:
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v6
     - uses: actions/setup-python@v6
       with:
         python-version: 3.x
@@ -33,7 +33,7 @@ jobs:
 
     - name: Generate the user stats image
       # Ref: https://github.com/cicirello/user-statistician?tab=readme-ov-file#inputs
-      uses: cicirello/user-statistician@653508b194a17f5c56ac6d1e64e59ccad28cb968 # v1.24.1
+      uses: cicirello/user-statistician@6a7e459d1174b5822afa99a7c6acccf376cb2eb1 # v1.25.0
       with:
         image-file: images/statistics.svg
         commit-and-push: false
