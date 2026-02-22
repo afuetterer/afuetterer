@@ -89,6 +89,7 @@ academic_repos = [
     "pypsa/linopy",
     "the-turing-way/the-turing-way",
     "sissaschool/xmlschema",
+    "chrismattmann/tika-python",
 ]
 
 oss_repos = [
