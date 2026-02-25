@@ -64,7 +64,7 @@ def get_commit_counts(repo: str, contributor: str, verbose: bool = False) -> int
                 break
     return commit_count
 
-HEADER = "| Name  | # My Commits | # Stars | Last Commit | Version | # Downloads |\n| ----  | -------: | ---------- | ----------- | ------- | ----------- |"
+HEADER = "| Name  | # My Commits | # Stars | Last Commit | \n| ----  | -------: | ---------- | ----------- | "
 
 academic_repos = [
     "astropy/astropy",
@@ -92,15 +92,16 @@ academic_repos = [
     "chrismattmann/tika-python",
 ]
 
+# spec-first/connexion
+# tiangolo/fastapi
+# iterative/dvc
+
 oss_repos = [
     "python-semantic-release/python-semantic-release",
     "python/cpython",
     "tfranzel/drf-spectacular",
     "pennersr/django-allauth",
-    "tiangolo/fastapi",
     "inveniosoftware/idutils",
-    "iterative/dvc",
-    "spec-first/connexion",
     "schemathesis/schemathesis",
     "huggingface/diffusers",
     "huggingface/transformers",
@@ -161,15 +162,13 @@ def print_repo_table(repos):
         downloads_url = f"https://img.shields.io/pypi/dm/{package}"
         pypi =f"[![PyPI version]({pypi_version_url})]({pypi_url})"
         last_commit = f"![GitHub last commit]({last_commit_url})"
-        stars = f"![GitHub stars]({stars_url})"
-        downloads = f"![Downloads]({downloads_url})"
 
         my_commits = get_commit_counts(repo, "afuetterer")
 
         if repo in not_on_pypi:
-            entry = f"| {github} | {my_commits} | {stars} | {last_commit} | | |"
+            entry = f"| {github} | {my_commits} | {stars} | {last_commit} |"
         else:
-            entry = f"| {github} | {my_commits} | {stars} | {last_commit} | {pypi} | {downloads} |"
+            entry = f"| {github} | {my_commits} | {stars} | {last_commit} |"
         cog.outl(entry)
 cog.outl("#### Academia")
 print_repo_table(academic_repos)
