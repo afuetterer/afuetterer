@@ -155,13 +155,10 @@ def print_repo_table(repos):
         if package == "frictionless-py":
             package = "frictionless"
 
-        pypi_url = f"https://pypi.org/project/{package}/"
-        pypi_version_url = f"https://img.shields.io/pypi/v/{package}"
         last_commit_url = f"https://img.shields.io/github/last-commit/{repo}"
         stars_url = f"https://img.shields.io/github/stars/{repo}"
-        downloads_url = f"https://img.shields.io/pypi/dm/{package}"
-        pypi =f"[![PyPI version]({pypi_version_url})]({pypi_url})"
         last_commit = f"![GitHub last commit]({last_commit_url})"
+        stars = f"![GitHub stars]({stars_url})"
 
         my_commits = get_commit_counts(repo, "afuetterer")
 
