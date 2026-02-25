@@ -17,7 +17,7 @@ jobs:
 
   update-contributions:
     if: github.repository_owner == 'afuetterer'
-    runs-on: ubuntu-slim
+    runs-on: ubuntu-24.04
     permissions:
       contents: write
     steps:
@@ -50,4 +50,4 @@ jobs:
           README.md
           images/statistics.svg
         default_author: github_actions
-        message: "chore: update contributions"
+        message: 'chore: update contributions'
