@@ -1,0 +1,32 @@
+repos:
+  # Ref: https://pre-commit.com/#meta-hooks
+- repo: meta
+  hooks:
+  - id: check-hooks-apply
+
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: 3e8a8703264a2f4a69428a0aa4dcb512790b2c8c  # frozen: v6.0.0
+  hooks:
+  - id: check-merge-conflict
+  - id: check-case-conflict
+  - id: check-yaml
+  - id: trailing-whitespace
+  - id: end-of-file-fixer
+    exclude_types: [svg]
+
+- repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
+  rev: 4380fbb73a154b5f5624794c1c78d9719ccc860f  # frozen: v2.16.0
+  hooks:
+  - id: pretty-format-yaml
+    args: [--autofix, --indent=2]
+
+- repo: https://github.com/python-jsonschema/check-jsonschema
+  rev: 13614ab716a3113145f1294ed259d9fbe5678ff3  # frozen: 0.37.1
+  hooks:
+  - id: check-dependabot
+  - id: check-github-workflows
+
+- repo: https://github.com/zizmorcore/zizmor-pre-commit
+  rev: a4727cbbcd26d7098e96b9cb738169b59711ae51  # frozen: v1.24.1
+  hooks:
+  - id: zizmor
