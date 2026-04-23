@@ -14,7 +14,6 @@ maartengr/keybert
 merenlab/anvio
 numpy/numpy
 pangaea-data-publisher/fuji
-pennersr/django-allauth
 plasmapy/plasmapy
 provinzkraut/unasyncd
 psychopy/psychopy
@@ -29,7 +28,6 @@ rdmorganiser/rdmo-catalog
 rdmorganiser/rdmo-docs-en
 rdmorganiser/rdmo-plugins
 re3data/using_the_re3data_API
-schemathesis/schemathesis
 scrapy/scrapyd
 scrapy/scrapyd-client
 sissaschool/xmlschema
