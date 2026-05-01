@@ -39,45 +39,45 @@ render_table(cog)
 
 | Name | # My Commits | # Stars | Latest commit |
 |---|---:|---:|---|
-| [chrismattmann/tika-python](https://github.com/chrismattmann/tika-python/commits?author=afuetterer) | 33 | 1.7 thousand | 4 days ago |
-| [ddionrails/ddionrails](https://github.com/ddionrails/ddionrails/commits?author=afuetterer) | 618 | 8 | 2 days ago |
-| [dracor-org/dracor-api](https://github.com/dracor-org/dracor-api/commits?author=afuetterer) | 7 | 12 | 3 days ago |
-| [dracor-org/dracor-metrics](https://github.com/dracor-org/dracor-metrics/commits?author=afuetterer) | 15 | 0 | 12 days ago |
+| [chrismattmann/tika-python](https://github.com/chrismattmann/tika-python/commits?author=afuetterer) | 48 | 1.7 thousand | 2 days ago |
+| [ddionrails/ddionrails](https://github.com/ddionrails/ddionrails/commits?author=afuetterer) | 618 | 8 | a day ago |
+| [dracor-org/dracor-api](https://github.com/dracor-org/dracor-api/commits?author=afuetterer) | 7 | 12 | 11 days ago |
+| [dracor-org/dracor-metrics](https://github.com/dracor-org/dracor-metrics/commits?author=afuetterer) | 15 | 0 | a month ago |
 | [dracor-org/pydracor](https://github.com/dracor-org/pydracor/commits?author=afuetterer) | 3 | 31 | 7 months ago |
-| [frictionlessdata/frictionless-py](https://github.com/frictionlessdata/frictionless-py/commits?author=afuetterer) | 2 | 816 | 14 days ago |
-| [huggingface/datasets](https://github.com/huggingface/datasets/commits?author=afuetterer) | 1 | 21.4 thousand | 6 days ago |
-| [huggingface/diffusers](https://github.com/huggingface/diffusers/commits?author=afuetterer) | 1 | 33.4 thousand | 2 hours ago |
-| [huggingface/transformers](https://github.com/huggingface/transformers/commits?author=afuetterer) | 1 | 159.8 thousand | 26 minutes ago |
-| [ibm/prompt-declaration-language](https://github.com/ibm/prompt-declaration-language/commits?author=afuetterer) | 1 | 291 | 2 days ago |
+| [frictionlessdata/frictionless-py](https://github.com/frictionlessdata/frictionless-py/commits?author=afuetterer) | 2 | 817 | a month ago |
+| [huggingface/datasets](https://github.com/huggingface/datasets/commits?author=afuetterer) | 1 | 21.5 thousand | 12 hours ago |
+| [huggingface/diffusers](https://github.com/huggingface/diffusers/commits?author=afuetterer) | 1 | 33.5 thousand | 11 hours ago |
+| [huggingface/transformers](https://github.com/huggingface/transformers/commits?author=afuetterer) | 1 | 160.1 thousand | 8 hours ago |
+| [ibm/prompt-declaration-language](https://github.com/ibm/prompt-declaration-language/commits?author=afuetterer) | 1 | 291 | 3 days ago |
 | [inveniosoftware/idutils](https://github.com/inveniosoftware/idutils/commits?author=afuetterer) | 3 | 30 | a month ago |
 | [maartengr/bertopic](https://github.com/maartengr/bertopic/commits?author=afuetterer) | 20 | 7.6 thousand | 4 months ago |
 | [maartengr/keybert](https://github.com/maartengr/keybert/commits?author=afuetterer) | 9 | 4.2 thousand | 3 months ago |
-| [merenlab/anvio](https://github.com/merenlab/anvio/commits?author=afuetterer) | 2 | 512 | a day ago |
-| [numpy/numpy](https://github.com/numpy/numpy/commits?author=afuetterer) | 1 | 31.9 thousand | 7 hours ago |
+| [merenlab/anvio](https://github.com/merenlab/anvio/commits?author=afuetterer) | 2 | 515 | 18 hours ago |
+| [numpy/numpy](https://github.com/numpy/numpy/commits?author=afuetterer) | 1 | 31.9 thousand | 6 hours ago |
 | [pangaea-data-publisher/fuji](https://github.com/pangaea-data-publisher/fuji/commits?author=afuetterer) | 97 | 68 | 3 months ago |
-| [plasmapy/plasmapy](https://github.com/plasmapy/plasmapy/commits?author=afuetterer) | 1 | 671 | a day ago |
+| [plasmapy/plasmapy](https://github.com/plasmapy/plasmapy/commits?author=afuetterer) | 1 | 674 | a day ago |
 | [provinzkraut/unasyncd](https://github.com/provinzkraut/unasyncd/commits?author=afuetterer) | 7 | 24 | 3 months ago |
-| [psychopy/psychopy](https://github.com/psychopy/psychopy/commits?author=afuetterer) | 1 | 2.0 thousand | 18 hours ago |
-| [pymeasure/pymeasure](https://github.com/pymeasure/pymeasure/commits?author=afuetterer) | 2 | 732 | 5 days ago |
-| [pypsa/linopy](https://github.com/pypsa/linopy/commits?author=afuetterer) | 25 | 241 | 2 days ago |
-| [pypsa/powerplantmatching](https://github.com/pypsa/powerplantmatching/commits?author=afuetterer) | 3 | 222 | a day ago |
-| [pypsa/pypsa](https://github.com/pypsa/pypsa/commits?author=afuetterer) | 7 | 1.9 thousand | a day ago |
+| [psychopy/psychopy](https://github.com/psychopy/psychopy/commits?author=afuetterer) | 1 | 2.0 thousand | 11 hours ago |
+| [pymeasure/pymeasure](https://github.com/pymeasure/pymeasure/commits?author=afuetterer) | 2 | 735 | 16 hours ago |
+| [pypsa/linopy](https://github.com/pypsa/linopy/commits?author=afuetterer) | 25 | 244 | 9 days ago |
+| [pypsa/powerplantmatching](https://github.com/pypsa/powerplantmatching/commits?author=afuetterer) | 3 | 222 | 9 days ago |
+| [pypsa/pypsa](https://github.com/pypsa/pypsa/commits?author=afuetterer) | 7 | 2.0 thousand | 5 days ago |
 | [python-semantic-release/python-semantic-release](https://github.com/python-semantic-release/python-semantic-release/commits?author=afuetterer) | 10 | 1.0 thousand | 4 months ago |
-| [python/cpython](https://github.com/python/cpython/commits?author=afuetterer) | 1 | 72.4 thousand | 4 hours ago |
-| [rdmorganiser/rdmo](https://github.com/rdmorganiser/rdmo/commits?author=afuetterer) | 185 | 129 | a month ago |
-| [rdmorganiser/rdmo-catalog](https://github.com/rdmorganiser/rdmo-catalog/commits?author=afuetterer) | 2 | 23 | a month ago |
-| [rdmorganiser/rdmo-docs-en](https://github.com/rdmorganiser/rdmo-docs-en/commits?author=afuetterer) | 18 | 0 | 2 days ago |
+| [python/cpython](https://github.com/python/cpython/commits?author=afuetterer) | 1 | 72.5 thousand | 6 hours ago |
+| [rdmorganiser/rdmo](https://github.com/rdmorganiser/rdmo/commits?author=afuetterer) | 185 | 130 | a month ago |
+| [rdmorganiser/rdmo-catalog](https://github.com/rdmorganiser/rdmo-catalog/commits?author=afuetterer) | 2 | 23 | 13 hours ago |
+| [rdmorganiser/rdmo-docs-en](https://github.com/rdmorganiser/rdmo-docs-en/commits?author=afuetterer) | 18 | 0 | 10 days ago |
 | [rdmorganiser/rdmo-plugins](https://github.com/rdmorganiser/rdmo-plugins/commits?author=afuetterer) | 5 | 5 | 10 months ago |
 | [re3data/using_the_re3data_API](https://github.com/re3data/using_the_re3data_API/commits?author=afuetterer) | 7 | 15 | 3 years ago |
-| [scrapy/scrapyd](https://github.com/scrapy/scrapyd/commits?author=afuetterer) | 3 | 3.1 thousand | 15 days ago |
-| [scrapy/scrapyd-client](https://github.com/scrapy/scrapyd-client/commits?author=afuetterer) | 2 | 774 | 2 months ago |
-| [sissaschool/xmlschema](https://github.com/sissaschool/xmlschema/commits?author=afuetterer) | 1 | 475 | 3 months ago |
-| [spack/spack](https://github.com/spack/spack/commits?author=afuetterer) | 2 | 5.0 thousand | 3 days ago |
-| [spack/spack-packages](https://github.com/spack/spack-packages/commits?author=afuetterer) | 9 | 127 | 13 hours ago |
+| [scrapy/scrapyd](https://github.com/scrapy/scrapyd/commits?author=afuetterer) | 3 | 3.1 thousand | a month ago |
+| [scrapy/scrapyd-client](https://github.com/scrapy/scrapyd-client/commits?author=afuetterer) | 2 | 773 | 2 months ago |
+| [sissaschool/xmlschema](https://github.com/sissaschool/xmlschema/commits?author=afuetterer) | 1 | 476 | 3 months ago |
+| [spack/spack](https://github.com/spack/spack/commits?author=afuetterer) | 2 | 5.0 thousand | 11 hours ago |
+| [spack/spack-packages](https://github.com/spack/spack-packages/commits?author=afuetterer) | 9 | 128 | 7 minutes ago |
 | [tefra/xsdata](https://github.com/tefra/xsdata/commits?author=afuetterer) | 4 | 437 | 2 months ago |
-| [tfranzel/drf-spectacular](https://github.com/tfranzel/drf-spectacular/commits?author=afuetterer) | 1 | 2.8 thousand | 8 days ago |
-| [the-turing-way/the-turing-way](https://github.com/the-turing-way/the-turing-way/commits?author=afuetterer) | 4 | 2.1 thousand | a day ago |
-| [vitalik/django-ninja](https://github.com/vitalik/django-ninja/commits?author=afuetterer) | 2 | 9.0 thousand | 2 days ago |
+| [tfranzel/drf-spectacular](https://github.com/tfranzel/drf-spectacular/commits?author=afuetterer) | 1 | 2.8 thousand | a month ago |
+| [the-turing-way/the-turing-way](https://github.com/the-turing-way/the-turing-way/commits?author=afuetterer) | 4 | 2.1 thousand | 9 days ago |
+| [vitalik/django-ninja](https://github.com/vitalik/django-ninja/commits?author=afuetterer) | 2 | 9.0 thousand | 9 days ago |
 <!-- [[[end]]] -->
 
 <details>
